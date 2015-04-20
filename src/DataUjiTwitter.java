@@ -10,11 +10,13 @@ import java.util.ArrayList;
  * Created by Julio on 4/16/2015.
  */
 public class DataUjiTwitter {
-    public ArrayList<String> dataUji;
+    public ArrayList<String> dataUjiString;
+    public ArrayList<Status> dataUjiStatuses;
     DataUjiTwitter(){
-        dataUji= new ArrayList<String>(100);
+        dataUjiStatuses= new ArrayList<>(100);
+        dataUjiString= new ArrayList<>(100);
     }
-    public void Stream(String fileName){
+    public void Stream(String fileName,String keyWord){
         Object lock = new Object();
         FileWriter file = null;
         try {
@@ -34,13 +36,14 @@ public class DataUjiTwitter {
             @Override
             public void onStatus(Status status) {
                 try {
-                    String Status = "@" + status.getUser().getScreenName() + " - " + status.getText() + " -> "+ status.getGeoLocation();
-                    System.out.println(Status);
-                    dataUji.add(Status);
-                    finalFile.write(Status);
+                    String StatusString = "@" + status.getUser().getScreenName() + " - " + status.getText();
+                    System.out.println(StatusString);
+                    dataUjiStatuses.add(status);
+                    dataUjiString.add(StatusString);
+                    finalFile.write(StatusString);
                     finalFile.write("\n");
                     finalFile.flush();
-                    if (dataUji.size() > 100) {
+                    if (dataUjiString.size() > 100) {
                         synchronized (lock) {
                             lock.notify();
                         }
@@ -82,12 +85,12 @@ public class DataUjiTwitter {
         double longitude2 = longitude + 8;
 
         twitterStream.addListener(listener);
-        double[][] bb = {{longitude1, lat1}, {longitude2, lat2}};
-
+        //double[][] bb = {{longitude1, lat1}, {longitude2, lat2}};
+        String [] keywords = new String [] {keyWord};
         FilterQuery fq = new FilterQuery();
 
-        // fq.track(keywords);
-        fq.locations(bb);
+        fq.track(keywords);
+        //fq.locations(bb);
         twitterStream.filter(fq);
         try {
             synchronized (lock) {

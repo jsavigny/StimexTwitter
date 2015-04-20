@@ -1,111 +1,615 @@
-@kenshi04 - Gue yg ngejar2 ceweknya yg jadian malah teman gue sendiri #guemahgituorangnya -> GeoLocation{latitude=-7.824418, longitude=110.383144}
-@BopzaHooligan - Hih naha di WC #eh  https://t.co/8lmFUIHox3 -> GeoLocation{latitude=-6.907278, longitude=107.595935}
-@nataIiedormer - Ko Nak! -> GeoLocation{latitude=-6.247206, longitude=106.795255}
-@sindyprmt - Yagitudeh hehe -> GeoLocation{latitude=-6.456642, longitude=106.851673}
-@mandacilcil - Diculik ~ (with Yuda and Firda at Colony Cafe and Beer House) — https://t.co/ABYtJxSn7C -> GeoLocation{latitude=-7.96695, longitude=112.60727}
-@zionly_ - Menteri Anies Sebut Ada Potensi UN Ulang karena Soal Bocor http://t.co/8qhZWzR7pb cc: @pojokpendidikan -> GeoLocation{latitude=-6.216216, longitude=106.681302}
-@AriYesya - ?niat banget yee (with Irvan at @jasamarga) — https://t.co/vzw7pxJTCS -> GeoLocation{latitude=-6.88986, longitude=107.57163}
-@nia_priskaw - This is my world and her world. We joke and laugh together, play together, learn together. Understand… https://t.co/D8CB8zZM1N -> GeoLocation{latitude=-7.591477, longitude=110.932517}
-@alikaWS - Thanks for today teman" alay kuhh({}) kurang dirimu nih pak leonarduskevin :') @ Nav Karaoke Gading… https://t.co/c2OW2A5fQ3 -> GeoLocation{latitude=-6.214812, longitude=107.03514}
-@Dsg_Pitaloka - Night @fadliagil98 tengil,ngeselin,tukang ngambek? lvyumr?? -> GeoLocation{latitude=-6.487413, longitude=106.877881}
-@kressensiareni - Round 1 ? (at Apjay Bakmi Jogja) — https://t.co/FgbOZVDZmx -> GeoLocation{latitude=-6.24972, longitude=106.7996}
-@Nuryulianti_ - Gnight kak , besok kita ketemu lg ! Hihiw :3 -> GeoLocation{latitude=-3.344684, longitude=104.772655}
-@satriapopsolo1 - Allhamdulilah Solo,thanks genk holiday nya sesuk neh… (w/ Nacha, punky, & sandi at Asrama Polisi Panularan) — https://t.co/kU1KeFjR41 -> GeoLocation{latitude=-7.5745, longitude=110.81059}
-@DevanSendi - Aq benci km yg tak pernh menghrgai persaan ku,kau sllu mnggap ku bodoh #aku_muak -> GeoLocation{latitude=-6.310313, longitude=106.582732}
-@reggypale69 - Kilometer dekat purwokerto ?? (with Muchlis at Rest Area KM 57) [pic] — https://t.co/hfH0JRx4aA -> GeoLocation{latitude=-6.36724, longitude=107.36137}
-@PelitaOnlinePOL - Putin Optimis Perekonomian Rusia Pulih Kurang dari Dua Tahun - http://t.co/N78Drf5oQK -> null
-@MuhammadFahriH - Main - main lah kemari (with Juwita, Rezha, and giska  at @keibar67) — https://t.co/sNPNwj1CTr -> GeoLocation{latitude=-6.31269, longitude=106.73315}
-@Ditidith - I can unlove you :"& ?? -> GeoLocation{latitude=-6.192974, longitude=106.501812}
-@atheoo - Cemeeen??? (at Jakarta Inner Ring Road) — https://t.co/bCp1JkRrbX -> GeoLocation{latitude=-6.21674, longitude=106.81057}
-@Adekrisnasetia1 - @aenull_17 kalo ditanya anak PKS, bilang aja"baju osisnya kakak kelunturan ama wearpack de,eh.tau-tau pas udah kering jadi kebaya kaya gini" -> null
-@prakasithajeng - setelah 4 bulan kerjaannya sibuk beut di salatiga, finally packing jg buat persiapan balik ke bekasi. entah kenapa packing kl ini gak males? -> GeoLocation{latitude=-7.333092, longitude=110.496255}
-@Wuland_MS - Inikah rasanya berjuang sendirian??? Lelah Ya Allah. Haruskah sesulit ini mendapatkan kebahagian?????? -> GeoLocation{latitude=-3.782892, longitude=102.336043}
-@NIISaha - Slmatmlm&slmattdr syg? -> GeoLocation{latitude=-2.933522, longitude=104.690608}
-@orrichan - With Bangkit at Warung Hotplate Odon ( W.H.O ) [pic] — https://t.co/s0CEpdvVOV -> GeoLocation{latitude=-6.28562, longitude=106.86533}
-@Ded_kor - Anjing tanah guguk lemah. -> GeoLocation{latitude=-7.90358, longitude=110.29759}
-@nitaWardani_ - cewek manja yang lagi berusaha bahagiain ibuk :-*  #aku -> GeoLocation{latitude=-7.543016, longitude=110.848336}
-@_CaptainLuffy - OHOK!! DX "@_NavigatorNami: SELAMA TIDAK MEMBUNUH CINTAKU PADA SANJI *BLUSHU*" -> GeoLocation{latitude=-5.424533, longitude=105.253513}
-@Dikakakakaka - Gracies tambien Z -> GeoLocation{latitude=-6.14219, longitude=106.283422}
-@wulanwulll - @apriliaprilaa Thanks dek. Pengennya sih bantuin beres2 sisanya tadi. Apa daya kakak sudah gak bisa gerak lagi. -> GeoLocation{latitude=-8.197957, longitude=113.697123}
-@PerkumpulanSCI - Koordinator volunteers @PerkumpulanSCI Joko Wahyono. PIN BB: 2803A898. Sebagai penggerak dan pelaksana kegiatan SCI. http://t.co/hrKVR1vRTP -> null
-@RicardoJanuar - @SahryBinjulham @tommy_hyper indonesia di surabaya city -> GeoLocation{latitude=-7.59522, longitude=112.7831}
-@nikmgitawahyuni - Berharap acan nyanyi sambil main gitar di depanku sekarang wkwk -> GeoLocation{latitude=-8.60689, longitude=115.26104}
-@Sachaninspirit - @FahryAlamsyah1 owwwwwwwhh greget nian kak aku nk teriak teriak :v -> GeoLocation{latitude=-3.430036, longitude=104.223273}
-@sumarnoroho - http://t.co/lj7Nkk308r -> GeoLocation{latitude=-6.234734, longitude=106.807085}
-@annisa_nur04 - "@Soal_Simi: #GhostGameCibubur Dompet Lagi Tipis ?"tipis banget -> GeoLocation{latitude=-6.503559, longitude=106.834979}
-@MrsAndin - bilang ga laper tapi pas disodorin makanan langsung sikaaat #guemahgituorangnya -> null
-@RereRaihan2 - livin' easy
-lovin' free
-acdc :v
-yeah -> null
-@TeddyTSBerty - Senandung Bhakti Nusantara @psm_umb in collaboration with Christopher Abimayu,… (at XXI Djakarta Theatre) [pic] — https://t.co/IvAGeAf0Xe -> GeoLocation{latitude=-6.18654, longitude=106.8242}
-@keke_LinnA - Kayak gimana pun berusaha jadii dewasa aja tp aja salah -> GeoLocation{latitude=-2.788188, longitude=108.22785}
-@Wennie_PNatasha - "@BTS_facts: [PIC] JIN (Cr: Improving Jin) #????? @BTS_twt http://t.co/wDa0GLcgXc
-http://t.co/djfOSvUzrN http://t.co/ZS807MJGC6" -> GeoLocation{latitude=1.062462, longitude=108.972837}
-@Ma18Affan - phewiittt (with Rivan, muhammad, and 3 others at Kedai IQ) — https://t.co/8aRfXpSN1I -> GeoLocation{latitude=-7.78318, longitude=110.38552}
-@khanzazelmira - Baru saja mengirim foto @ Wake cup coffee https://t.co/wG4poApmGB -> GeoLocation{latitude=-7.429365, longitude=109.241071}
-@UpikRizky_26 - abang @saipul_jamil ketemu aja kelemahan kontestan...dan itu bener banget.mmang adi paling lemah di grub 1.mana ketelitian juri lain.. -> GeoLocation{latitude=-6.246311, longitude=106.850571}
-@ScooterUnpam - Seleting dol ga ada ngir ? "@harismaups1: @ScooterUnpam @sipiit_mpiit @iinulandari14 ranca udh naik mesin besok bawa kopdar sekalian mau tes -> GeoLocation{latitude=-6.321125, longitude=106.849472}
-@Fitri_Fiyi - saya berharap ada perubahan di hidup saya ke depannya -> null
-@febrian49413987 - Mau Merayakan 15 Tahun ULTAH Naruto Karena,Aku Gk Punya Biaya Utk Ke Jepang I #TiketNontonNaruto I @wina_ronan @WidiyaPramita I @GrazeraCom -> null
-@trifebriaaa - @maria_tesaa haha uburs mah gitu kak. Udah kak biarin. Biarin serigala mengaung haha -> GeoLocation{latitude=-7.709848, longitude=109.716132}
-@Kyathello - @AhoyInvizHRB http://t.co/6NFKeyP1yj -> GeoLocation{latitude=-7.753937, longitude=110.397694}
-@TitinSuhartni - @MuhammadiqbalH_ lahah kan yang minta kado sama traktirannya aku ka kk kan cuma dapet pu doang dari aku ? haha -> GeoLocation{latitude=-6.145945, longitude=106.682501}
-@astridwindiana - Wiiiih "@WOWFAKTA: Svalbard, Norwegia merupakan wilayah paling utara bumi yang dihuni manusia secara permanen. http://t.co/STPEDLv0XE" -> GeoLocation{latitude=-6.677462, longitude=106.931265}
-@kandisun - Lets make lough @StandUpKompasTV :D -> GeoLocation{latitude=-7.754388, longitude=110.406938}
-@monicabldn - 'eyes bright, up tight, just girls' @ the 1975 - girls https://t.co/iTomo8osGd -> GeoLocation{latitude=-6.940671, longitude=107.617586}
-@rudday12 - Perutku makin lama tambah buncit terus
-#EfekMakanSebelumTidur
-???? -> GeoLocation{latitude=-8.804535, longitude=115.159418}
-@AtinAgstn - @gilangjalu ihik aku tau kook udah dikasih tau mamanya Mas Geje wkwk -> GeoLocation{latitude=-7.785103, longitude=110.44751}
-@selvidw - Cie korban:p ydh aku tersangka"@siintayulian: haha maklum korban anak twitter:3 RT @selvidw: jaha tuhkan ketikanya alay hayo:D"@siintayulian -> GeoLocation{latitude=-6.237315, longitude=106.563098}
-@tamyputri - At Roti Bakar Edi (Depan RS.Haji) — https://t.co/uzXxJ9z2OT -> GeoLocation{latitude=-6.28984, longitude=106.89078}
-@dhillaPF - @devinurf2 @ariw21devilove jiahaha yakali nanti mama tauu, soalnya kalo di tanabang banyak modelnyaaa -> GeoLocation{latitude=-6.406612, longitude=106.818366}
-@KhansaNisrina01 - Iiii maaaafff -> GeoLocation{latitude=-6.332792, longitude=106.845529}
-@FeniaMetrilia - Kalo bae yo, ahh sudahlah wkwk -> GeoLocation{latitude=-3.826414, longitude=102.29874}
-@LaVioLaduni - JK Hadiri Peluncuran 2 Buku Fahmi Idris http://t.co/VDt0h0NEB8 ~ -> GeoLocation{latitude=-6.372808, longitude=106.851218}
-@nobynodhluchky - Sidoarjo :3 (with Wiwi, Erliya, and 2 others at asafiq collection) — https://t.co/IiCVOLMr9b -> GeoLocation{latitude=-7.43725, longitude=112.61008}
-@yustinaRSP - Wapres minta UN diulang ? @$%&**&%$& -> GeoLocation{latitude=-7.469546, longitude=112.445782}
-@rahmasudibyo - Sebelum di anterin ke kostan makan mie aceh dulu ???????? (w/ Odie, Dinda, & Mama Odie at Mie aceh Paman Sam) — https://t.co/MBOmCjqMPu -> GeoLocation{latitude=-6.24771, longitude=106.91889}
-@nandawikyta - Bnyak bukti jadi slow! No pance -> GeoLocation{latitude=-5.122955, longitude=105.309}
-@NiesaRianie - Kenapa cik? "@Mariasifaa_: Atulaahh.. :(( @NiesaRianie: Ciee "@Mariasifaa_: .... Duhh :'(( "@iyanahmad_: Dia --@Mariasifaa_ @soal_omes: Kal -> GeoLocation{latitude=-7.40722, longitude=108.19909}
-@hbk_empatbelas - Nyelo (with Bagus Susetio at @parsleybakery) — https://t.co/1jO8c21qCe -> GeoLocation{latitude=-7.76806, longitude=110.41002}
-@ajj_petot - Katakata ini tg d tnggu*
-Gak papa dong alay skli* 
-Ini yg buat seneng http://t.co/F7HEAVvQ23 -> GeoLocation{latitude=-3.806967, longitude=102.263863}
-@tuwiltiwull - Yuk kita seminar motivasi dulu @standUpKompasTV #SUCI5 -> GeoLocation{latitude=-3.46666, longitude=114.80254}
-@firmanpratama89 - Uda fix pindah sekolah! -> GeoLocation{latitude=-6.11905, longitude=106.91956}
-@HelmyLaras_ - #AdaAQUA ''@maaall_  Mungkin koe kurang ngombe aqua :$'' -> null
-@arianaisppl - @putri_isni PUT -> GeoLocation{latitude=-6.314791, longitude=106.970505}
-@mutiarawdr_ - Ga mau ngestalk lagi ah??? -> GeoLocation{latitude=-6.229492, longitude=107.067586}
-@agungtwb - Kar ewud tiud :| -> GeoLocation{latitude=-6.998548, longitude=110.463099}
-@enoknurhalimah_ - @hmf_odol huaaa, kabar baiklah panjalu mah ? kalo kabar dibelah gunung gimana??? -> GeoLocation{latitude=-6.391486, longitude=106.848502}
-@gianduts - Apa aj ? Say Something by James (at Riyadh's Room) — https://t.co/d9zRXTkMkf -> GeoLocation{latitude=-6.94714, longitude=107.65733}
-@mamaargya1 - @ayutingting_new Cantiiiik ....my IIDOL ,,,Smart and Frefect...SEMANGAAAAT...Juri #KDI2015OfficialMNCTV" @Shaheer_S" http://t.co/ozXM078ObN -> GeoLocation{latitude=-6.121165, longitude=106.72694}
-@borunasution_ - Kelewatan 20 km, mayaaan muter lagi haha ?? (at Baron, Nganjuk) — https://t.co/R9NYFgqx1Y -> GeoLocation{latitude=-7.60201, longitude=112.04036}
-@three_tilo - Meet up ? (with Ikhsan at @skye_56) — https://t.co/HNHZUqJIug -> GeoLocation{latitude=-6.19644, longitude=106.82293}
-@Arifagan - Iki opo"@maykayyyy: @fagansta_ @Arifagan haha haha ????" -> GeoLocation{latitude=-7.544119, longitude=110.727664}
-@vitavitex - Sweet escape??? @ Tempo Gelato Yogyakarta https://t.co/YHXuPCQLTd -> GeoLocation{latitude=-7.818986, longitude=110.369019}
-@winafebrianayus - Persahabatan memang bukan hubungan yang bisa didapatkan secara instan dan cepat. Beberapa diantaranya… https://t.co/xUsaCMGBqc -> GeoLocation{latitude=-6.415188, longitude=107.465462}
-@WindiFm - BAKALAN KANGEN KALIAN YANG SLALU HADIR DALAM #MASAMASAPUTIHABU-ABU YANG SANGAT BERKESAN DAN BAKAL KU KENANG 12.A.3 <3 http://t.co/1dpm5NBLpo -> GeoLocation{latitude=-6.678451, longitude=108.459698}
-@ENSFRH - Ini hp keknya minta dijual -> null
-@lusiidyah - Baperan iya, alay iya, mutungan iya. Yauda lah ya. Ini sifat gw yg susah ilang. -> GeoLocation{latitude=-7.320454, longitude=110.477231}
-@RSasyaroh - Laporan harusnya udah kelar tp grgr sejarahnya belum dikirimin jd belum selesaiiii?? -> GeoLocation{latitude=-6.405682, longitude=106.961247}
-@onya_nya - Melepas lelah utk hari ini… ? How Long Will I Love You by @elliegoulding (w/ Wiriawan at Perum Taman Penta III) — https://t.co/TvFRwdGc4o -> GeoLocation{latitude=-8.79087, longitude=115.15634}
-@KrimaAndini - Bobonyenyakca? -> GeoLocation{latitude=-6.90304, longitude=106.98667}
-@rahardisantos - Itu bintang tamu di bukan empat mata subhanallah. -> GeoLocation{latitude=-6.417754, longitude=106.796269}
-@novi_tresna - Merepeett mulu ni laki... Tp syg loh ? (with Noval at Pondok Cilegon Indah) — https://t.co/fVZ9NTt9Yt -> GeoLocation{latitude=-6.03853, longitude=106.07747}
-@herufrdn - Kangen broo ??? (with Hafiz, Muhammad Rizki, and 5 others at @kfcindonesia) — https://t.co/tmviKI2vOk -> GeoLocation{latitude=-2.97189, longitude=104.73064}
-@Florentinaiwina - Noted haha  https://t.co/gLLDvfi6YK -> GeoLocation{latitude=-0.009382, longitude=109.30614}
-@agussari - Alasan administratif tidak menghilangkan substansi. Penggugat sanat mungkin akan mengajukan banding.  https://t.co/Lzt4S6orfQ -> GeoLocation{latitude=-6.213531, longitude=106.790382}
-@brebrews - Cemban ? (with bagaskara, Rizky, and 2 others at Flash Futsal) — https://t.co/XweAbEU9JN -> GeoLocation{latitude=-7.80773, longitude=110.34855}
-@Ayuuynr - Badok bgt anjirrrrr??? (at Mie Aceh Kota Juang) — https://t.co/eZIQWOfDAm -> GeoLocation{latitude=-6.22445, longitude=106.70504}
-@riztrie - gag sabar pgn nonton aksi'a @DickyDifie 
-:-D -> GeoLocation{latitude=-6.245133, longitude=106.741436}
-@Mrntamellia - @Ekhsal17 gapapa sih, udah ah ya thanks bgt haha -> GeoLocation{latitude=-6.244059, longitude=106.821163}
-@LaiaAlui - @ferzenia_0 I miss you too -> null
-@aprilianayesi - @nedd_ hop iki wes bengi mb je ojo galau ah... -> GeoLocation{latitude=-7.897876, longitude=110.107265}
-@mellysaa20 - Come&join us guys!!?? http://t.co/5GHYs8Mq1k -> GeoLocation{latitude=-6.148586, longitude=106.784364}
-@anggiedwi20 - #DiantaraCintaBintang #DiantaraCintaBintang #DiantaraCintaBintang #DiantaraCintaBintang @Dindakirana304 @rizkynazaarr @SCTV_ -> GeoLocation{latitude=-6.316636, longitude=107.290817}
-@desiriskiar - Not only hand that could clap. Brain also can do like that. -> GeoLocation{latitude=-7.33282, longitude=110.16687}
-@toramatora - @kekyoko ????????????????????????? -> GeoLocation{latitude=-6.210481, longitude=106.82389}
+@kozsukanapplega - RT @chongkeukendi32: ??? #FOLLOWTRICK
+??? RETWEET
+??? FOLLOW ALL WHO RT
+??? #FOLLOWBACK
+??? GAIN TODAY
+#votefifthharmony #happy }u/4
+@7152_briereyenj - ?Gain Followers
+?RT This
+?MUST FOLLOW ME I FOLLOW BACK
+?Follow everyone who rts
+?Gain
+  #happy #music #exo #BELIEBER ok£ö
+@elsetdebor651_0 - RT @hamd_ygu_nd_ers: ????? RETWEET 
+????? FOLLOW ALL WHO RT
+????? FOLLOWBACK
+????? GAIN WITH ME
+RT NOW?????
+#ONEDIRECTION #ff #Love #happy …
+@4494_buijmanlui - RT @cople_stovi_na_: ????? RETWEET 
+????? FOLLOW ALL WHO RT
+????? FOLLOWBACK
+????? GAIN WITH ME
+RT NOW?????
+#happy #ANDROID #sexy #music#ff…
+@_ingunn_asab_ih - RT @anhwingate14: ??? #FOLLOWTRICK
+??? RETWEET
+??? FOLLOW ALL WHO RT
+??? #FOLLOWBACK
+??? GAIN TODAY
+#happy #sexy #music#follow &c7=
+@cchevaliesydell - ??? #FOLLOWTRICK
+??? RETWEET
+??? FOLLOW ALL WHO RT
+??? #FOLLOWBACK
+??? GAIN TODAY
+#kca #vote1duk #happy #ff t67å
+@irenasperry2 - RT @ddiekmanchrysle: ?Gain Followers
+?RT This
+?MUST FOLLOW ME I FOLLOW BACK
+?Follow everyone who rts
+?Gain
+  #wildlifemusicvideo #ff #happy…
+@Beautifuly_Rare - #beautiful #happy #ready #letgo https://t.co/q0NLJ5G2fT
+@francinatruman1 - RT @papa_nton_wingf: ??? #FOLLOWTRICK
+??? RETWEET
+??? FOLLOW ALL WHO RT
+??? #FOLLOWBACK
+??? GAIN TODAY
+#happy #GAIN #FOLLOWTRICK j?=(
+@francinatruman1 - ????? RETWEET 
+????? FOLLOW ALL WHO RT
+????? FOLLOWBACK
+????? GAIN WITH ME
+RT NOW?????
+#iphone #sougofollow #happy #ff g&(t
+@4016_sherrellrj - RT @8471_cchristofh: ?Gain Followers
+?RT This
+?MUST FOLLOW ME I FOLLOW BACK
+?Follow everyone who rts
+?Gain
+  #ipadgames #happy #gameinsight…
+@phillipcalabre2 - ????? RETWEET 
+????? FOLLOW ALL WHO RT
+????? FOLLOWBACK
+????? GAIN WITH ME
+RT NOW?????
+#happy #goodlucklouis #follow i€+k
+@finestlinks - #free #video #good Isaac Muon TT   Very Important Bike: 
+          http://t.co/lhHqIUNh1b #enjoy #new #happy
+@HurstFernando - RT @markmontano41: ??? #FOLLOWTRICK
+??? RETWEET
+??? FOLLOW ALL WHO RT
+??? #FOLLOWBACK
+??? GAIN TODAY
+#happy #BELIEBER #follow ]]12
+@9364_tedl_emmi_ - RT @kkharitonniebud: ?? #FOLLOWTRICK
+? RETWEET
+?? FOLLOW ALL WHO RT
+? FOLLOWBACK
+?? GAIN WITH ME
+? #FOLLOW
+#happy #ONEDIRECTION #ff #follow…
+@DonitaWhipple - RT @norcalzelda1626: ??? #FOLLOWTRICK
+??? RETWEET
+??? FOLLOW ALL WHO RT
+??? #FOLLOWBACK
+??? GAIN TODAY
+#votadulcemaria #happy #ff [ga+
+@4016_sherrellrj - ?? #FOLLOWTRICK
+? RETWEET
+?? FOLLOW ALL WHO RT
+? FOLLOWBACK
+?? GAIN WITH ME
+? #FOLLOW
+#porn #happy #votadulcemaria #ff j16g
+@lladeanmckenney - RT @3863_hhirotoprz: ??? #FOLLOWTRICK
+??? RETWEET
+??? FOLLOW ALL WHO RT
+??? #FOLLOWBACK
+??? GAIN TODAY
+#votalali #ff #happy #Love 9äf$
+@DonitaWhipple - RT @CutlerOfelia: ????? RETWEET 
+????? FOLLOW ALL WHO RT
+????? FOLLOWBACK
+????? GAIN WITH ME
+RT NOW?????
+#happy #TEAMFOLLOWBACK #follow uägv
+@guricaflintall7 - RT @6785_vijqarguan: ?? #FOLLOWTRICK
+? RETWEET
+?? FOLLOW ALL WHO RT
+? FOLLOWBACK
+?? GAIN WITH ME
+? #FOLLOW
+#gameinsight #happy #gameinsight…
+@lornaheping228_ - RT @bdasdmizvnghuei: ?? #FOLLOWTRICK
+? RETWEET
+?? FOLLOW ALL WHO RT
+? FOLLOWBACK
+?? GAIN WITH ME
+? #FOLLOW
+#goodlucklouis #follow #happy py…
+@ttengbarringtt_ - RT @boeckmaureen727: ??? #FOLLOWTRICK
+??? RETWEET
+??? FOLLOW ALL WHO RT
+??? #FOLLOWBACK
+??? GAIN TODAY
+#ff #happy #gameinsight ]bn%
+@2297_harrodwein - ????? RETWEET 
+????? FOLLOW ALL WHO RT
+????? FOLLOWBACK
+????? GAIN WITH ME
+RT NOW?????
+#superjunior #ff #happy #follow 3z8r
+@pi_rolli_treen_ - RT @_shiang_yisheld: ?? #FOLLOWTRICK
+? RETWEET
+?? FOLLOW ALL WHO RT
+? FOLLOWBACK
+?? GAIN WITH ME
+? #FOLLOW
+#happy #news #job #gameinsight å…
+@DelvalleElliott - RT @ramon_adam: ????? RETWEET 
+????? FOLLOW ALL WHO RT
+????? FOLLOWBACK
+????? GAIN WITH ME
+RT NOW?????
+#ipadgames #news #job #happy 6$k}
+@joysteele69 - RT @kapell_ayuh_n_0: ????? RETWEET 
+????? FOLLOW ALL WHO RT
+????? FOLLOWBACK
+????? GAIN WITH ME
+RT NOW?????
+#love #news #ff #happy #follow …
+@BurchCordelia - RT @1355_a_th_enabl: ????? RETWEET 
+????? FOLLOW ALL WHO RT
+????? FOLLOWBACK
+????? GAIN WITH ME
+RT NOW?????
+#happy #staystrongexo#ff #Love …
+@rathnakuwolfe44 - RT @MelyndaSigmon: ?? #FOLLOWTRICK
+? RETWEET
+?? FOLLOW ALL WHO RT
+? FOLLOWBACK
+?? GAIN WITH ME
+? #FOLLOW
+#votalali #happy #goodlucklouis &s…
+@gluinskidealto_ - ?? #FOLLOWTRICK
+? RETWEET
+?? FOLLOW ALL WHO RT
+? FOLLOWBACK
+?? GAIN WITH ME
+? #FOLLOW
+#happy #iphone #sougofollow #ff %v&+
+@GilmerJamee - ?? #FOLLOWTRICK
+? RETWEET
+?? FOLLOW ALL WHO RT
+? FOLLOWBACK
+?? GAIN WITH ME
+? #FOLLOW
+#happy #BELIEBER #gameinsight pqn0
+@ArletteStaples - RT @6391_gloverigna: ??? #FOLLOWTRICK
+??? RETWEET
+??? FOLLOW ALL WHO RT
+??? #FOLLOWBACK
+??? GAIN TODAY
+#TCFollowTrain  #happy #ff kv8i
+@hepburn_kilburn - ?? #FOLLOWTRICK
+? RETWEET
+?? FOLLOW ALL WHO RT
+? FOLLOWBACK
+?? GAIN WITH ME
+? #FOLLOW
+#happy #kca #vote1duk #follow zjcr
+@endsley_03593 - ?Gain Followers
+?RT This
+?MUST FOLLOW ME I FOLLOW BACK
+?Follow everyone who rts
+?Gain
+  #happy #gameinsight #porn #ff övh4
+@joysteele69 - RT @bjlyonsdjebby_l: ????? RETWEET 
+????? FOLLOW ALL WHO RT
+????? FOLLOWBACK
+????? GAIN WITH ME
+RT NOW?????
+#happy #RETWEET #ipad #follow c…
+@ArletteStaples - ????? RETWEET 
+????? FOLLOW ALL WHO RT
+????? FOLLOWBACK
+????? GAIN WITH ME
+RT NOW?????
+#happy #TCFollowTrain  #follow oå/g
+@KelleePadron - RT @croppercadzow45: ????? RETWEET 
+????? FOLLOW ALL WHO RT
+????? FOLLOWBACK
+????? GAIN WITH ME
+RT NOW?????
+#staystrongexo#happy #follow ($…
+@joysteele69 - ?? #FOLLOWTRICK
+? RETWEET
+?? FOLLOW ALL WHO RT
+? FOLLOWBACK
+?? GAIN WITH ME
+? #FOLLOW
+#music #exo #happy #bestfanarmy dnmu
+@KelleePadron - RT @6457_jjozefentw: ??? #FOLLOWTRICK
+??? RETWEET
+??? FOLLOW ALL WHO RT
+??? #FOLLOWBACK
+??? GAIN TODAY
+#ipadgames #happy #follow $c=€
+@7199_lou - RT @2306__goughhaze: ????? RETWEET 
+????? FOLLOW ALL WHO RT
+????? FOLLOWBACK
+????? GAIN WITH ME
+RT NOW?????
+#emabiggestfans1d #kca #happy x…
+@WirthBlake - RT @warsahagwsregni: ??? #FOLLOWTRICK
+??? RETWEET
+??? FOLLOW ALL WHO RT
+??? #FOLLOWBACK
+??? GAIN TODAY
+#happy #ff #gameinsight aå&1
+@0489_di_did_elf - RT @ShaunteWeimer: ??? #FOLLOWTRICK
+??? RETWEET
+??? FOLLOW ALL WHO RT
+??? #FOLLOWBACK
+??? GAIN TODAY
+#RETWEET #ipad #happy #ff £y01
+@1038_sowrywooll - RT @kristophinterfa: ?Gain Followers
+?RT This
+?MUST FOLLOW ME I FOLLOW BACK
+?Follow everyone who rts
+?Gain
+  #happy #votadulcemaria #sexy }…
+@7246_atgngessze - RT @mmuscateodoraa_: ??? #FOLLOWTRICK
+??? RETWEET
+??? FOLLOW ALL WHO RT
+??? #FOLLOWBACK
+??? GAIN TODAY
+#happy #superjunior #ff bzbu
+@carol_grayson - RT @4529_ppalidworc: ????? RETWEET 
+????? FOLLOW ALL WHO RT
+????? FOLLOWBACK
+????? GAIN WITH ME
+RT NOW?????
+#GAIN #FOLLOWTRICK #happy #Love…
+@1077_dsattacent - RT @tillesils41187_: ????? RETWEET 
+????? FOLLOW ALL WHO RT
+????? FOLLOWBACK
+????? GAIN WITH ME
+RT NOW?????
+#kca #vote1duk #happy #follow 3…
+@7044_alorxvatts - RT @9006_shulersraw: ????? RETWEET 
+????? FOLLOW ALL WHO RT
+????? FOLLOWBACK
+????? GAIN WITH ME
+RT NOW?????
+#GAIN #FOLLOWTRICK #happy #Love…
+@elgedjorisvanst - ????? RETWEET 
+????? FOLLOW ALL WHO RT
+????? FOLLOWBACK
+????? GAIN WITH ME
+RT NOW?????
+#TCFollowTrain  #happy #follow bl6f
+@dangelica14 - Good morning! Happy morning everyone :) Dan ? Angelica
+
+#smilepamore#happy#inlove#contented http://t.co/HLwLv00eFj
+@carol_grayson - RT @1335_aggre_ga_t: ??? #FOLLOWTRICK
+??? RETWEET
+??? FOLLOW ALL WHO RT
+??? #FOLLOWBACK
+??? GAIN TODAY
+#votalali #happy #follow d5cv
+@7044_alorxvatts - RT @2779_tmjodisthi: ?? #FOLLOWTRICK
+? RETWEET
+?? FOLLOW ALL WHO RT
+? FOLLOWBACK
+?? GAIN WITH ME
+? #FOLLOW
+#ipadgames #happy #gameinsight u…
+@wiljlytblaauw_7 - RT @1451_reinholdid: ?Gain Followers
+?RT This
+?MUST FOLLOW ME I FOLLOW BACK
+?Follow everyone who rts
+?Gain
+  #happy #sexy #gameinsight m++z
+@chugjhaughwou_9 - RT @HoldenCalista: ?? #FOLLOWTRICK
+? RETWEET
+?? FOLLOW ALL WHO RT
+? FOLLOWBACK
+?? GAIN WITH ME
+? #FOLLOW
+#happy #staystrongexo#Love #Love p…
+@6295_guthreyd_y - RT @caitrindody0030: ?? #FOLLOWTRICK
+? RETWEET
+?? FOLLOW ALL WHO RT
+? FOLLOWBACK
+?? GAIN WITH ME
+? #FOLLOW
+#myfirsttweet #happy #follow 0(r£
+@carol_grayson - ?Gain Followers
+?RT This
+?MUST FOLLOW ME I FOLLOW BACK
+?Follow everyone who rts
+?Gain
+  #TEAMFOLLOWBACK #happy #follow f)m%
+@ggabyblannn_ges - RT @o_uesib_b_y_345: ??? #FOLLOWTRICK
+??? RETWEET
+??? FOLLOW ALL WHO RT
+??? #FOLLOWBACK
+??? GAIN TODAY
+#happy #votefifthharmony sxi0
+@em__ana_tiasaha - ??? #FOLLOWTRICK
+??? RETWEET
+??? FOLLOW ALL WHO RT
+??? #FOLLOWBACK
+??? GAIN TODAY
+#happy #porn #ipadgames p?qe
+@diteccoalynn011 - RT @mmillonertii_kr: ????? RETWEET 
+????? FOLLOW ALL WHO RT
+????? FOLLOWBACK
+????? GAIN WITH ME
+RT NOW?????
+#sexy #music#music #exo #happy …
+@quekjan68380_34 - RT @ArletteStaples: ????? RETWEET 
+????? FOLLOW ALL WHO RT
+????? FOLLOWBACK
+????? GAIN WITH ME
+RT NOW?????
+#votadulcemaria #happy #follow p…
+@chugjhaughwou_9 - ?? #FOLLOWTRICK
+? RETWEET
+?? FOLLOW ALL WHO RT
+? FOLLOWBACK
+?? GAIN WITH ME
+? #FOLLOW
+#ANDROID #TCFollowTrain  #happy å?7l
+@diteccoalynn011 - ?Gain Followers
+?RT This
+?MUST FOLLOW ME I FOLLOW BACK
+?Follow everyone who rts
+?Gain
+  #TCFollowTrain  #happy #follow p&1}
+@haydenrees35 - RT @elioharris47003: ??? #FOLLOWTRICK
+??? RETWEET
+??? FOLLOW ALL WHO RT
+??? #FOLLOWBACK
+??? GAIN TODAY
+#bestfanarmy #happy #Love 9hs+
+@MaloneKrystyna - RT @boylannatver177: ??? #FOLLOWTRICK
+??? RETWEET
+??? FOLLOW ALL WHO RT
+??? #FOLLOWBACK
+??? GAIN TODAY
+#happy #ff #kca #vote1duk &5qö
+@ssharajuhann_73 - RT @EnnisStephane: ?? #FOLLOWTRICK
+? RETWEET
+?? FOLLOW ALL WHO RT
+? FOLLOWBACK
+?? GAIN WITH ME
+? #FOLLOW
+#happy #ff #iphone #sougofollow cr…
+@hhempsteaantkow - RT @marmangione4873: ??? #FOLLOWTRICK
+??? RETWEET
+??? FOLLOW ALL WHO RT
+??? #FOLLOWBACK
+??? GAIN TODAY
+#follow #sexy #happy #Love xr18
+@DotLance - RT @hhpldttonkovicc: ?? #FOLLOWTRICK
+? RETWEET
+?? FOLLOW ALL WHO RT
+? FOLLOWBACK
+?? GAIN WITH ME
+? #FOLLOW
+#happy #staystrongexo#follow #ff…
+@ClaribelStowers - RT @HawkWoodrow: ?? #FOLLOWTRICK
+? RETWEET
+?? FOLLOW ALL WHO RT
+? FOLLOWBACK
+?? GAIN WITH ME
+? #FOLLOW
+#ipadgames #happy #FOLLOWBACK j}åo
+@selenettdurward - RT @HertaRedmon: ?Gain Followers
+?RT This
+?MUST FOLLOW ME I FOLLOW BACK
+?Follow everyone who rts
+?Gain
+  #news #job #happy #ipadgames z6s(
+@aguedarand61 - RT @6199_leckiegene: ??? #FOLLOWTRICK
+??? RETWEET
+??? FOLLOW ALL WHO RT
+??? #FOLLOWBACK
+??? GAIN TODAY
+#staystrongexo#happy #Love 12öq
+@ssharajuhann_73 - ??? #FOLLOWTRICK
+??? RETWEET
+??? FOLLOW ALL WHO RT
+??? #FOLLOWBACK
+??? GAIN TODAY
+#happy #ONEDIRECTION #ff ?aå2
+@dongmonson5 - RT @janeshumate83: ????? RETWEET 
+????? FOLLOW ALL WHO RT
+????? FOLLOWBACK
+????? GAIN WITH ME
+RT NOW?????
+#happy #goodlucklouis #follow ä0ks
+@HoskinsTonisha - RT @t_a_ssiatlanta_: ????? RETWEET 
+????? FOLLOW ALL WHO RT
+????? FOLLOWBACK
+????? GAIN WITH ME
+RT NOW?????
+#happy #FOLLOWBACK #follow #ff …
+@ClaribelStowers - ????? RETWEET 
+????? FOLLOW ALL WHO RT
+????? FOLLOWBACK
+????? GAIN WITH ME
+RT NOW?????
+#goodlucklouis #happy #follow 557i
+@amalie_prashaw2 - RT @CarrolLedford: ????? RETWEET 
+????? FOLLOW ALL WHO RT
+????? FOLLOWBACK
+????? GAIN WITH ME
+RT NOW?????
+#happy #TEAMFOLLOWBACK #follow l+…
+@9286_calisloret - RT @verliebuie31: ?Gain Followers
+?RT This
+?MUST FOLLOW ME I FOLLOW BACK
+?Follow everyone who rts
+?Gain
+  #happy #GAIN #FOLLOWTRICK #ff 1t£=
+@etan_ka_me_ko_v - RT @EnnisStephane: ?? #FOLLOWTRICK
+? RETWEET
+?? FOLLOW ALL WHO RT
+? FOLLOWBACK
+?? GAIN WITH ME
+? #FOLLOW
+#happy #ff #iphone #sougofollow cr…
+@OchoaLuise - RT @8637_rrodschatt: ??? #FOLLOWTRICK
+??? RETWEET
+??? FOLLOW ALL WHO RT
+??? #FOLLOWBACK
+??? GAIN TODAY
+#votalali #happy #BELIEBER =¤z$
+@0585_keysb_u__r - RT @BermanFelipe: ?Gain Followers
+?RT This
+?MUST FOLLOW ME I FOLLOW BACK
+?Follow everyone who rts
+?Gain
+  #happy #GAIN #FOLLOWTRICK #ff -n£u
+@BrunaPigg - RT @8420_licht_ense: ??? #FOLLOWTRICK
+??? RETWEET
+??? FOLLOW ALL WHO RT
+??? #FOLLOWBACK
+??? GAIN TODAY
+#happy #ANDROID #follow )/j[
+@3993_wwiesttova - ????? RETWEET 
+????? FOLLOW ALL WHO RT
+????? FOLLOWBACK
+????? GAIN WITH ME
+RT NOW?????
+#kca #vote1duk #happy #follow lgx7
+@_shiang_yisheld - ????? RETWEET 
+????? FOLLOW ALL WHO RT
+????? FOLLOWBACK
+????? GAIN WITH ME
+RT NOW?????
+#sexy #happy #sexy #music#Love 2+uz
+@LakendraPopp - ????? RETWEET 
+????? FOLLOW ALL WHO RT
+????? FOLLOWBACK
+????? GAIN WITH ME
+RT NOW?????
+#ONEDIRECTION #ff #happy #Love l7sp
+@diliperick3680_ - ??? #FOLLOWTRICK
+??? RETWEET
+??? FOLLOW ALL WHO RT
+??? #FOLLOWBACK
+??? GAIN TODAY
+#GAIN #FOLLOWTRICK #happy inp¤
+@OchoaLuise - ?Gain Followers
+?RT This
+?MUST FOLLOW ME I FOLLOW BACK
+?Follow everyone who rts
+?Gain
+  #happy #gameinsight #follow {&z?
+@etan_ka_me_ko_v - RT @8637_rrodschatt: ??? #FOLLOWTRICK
+??? RETWEET
+??? FOLLOW ALL WHO RT
+??? #FOLLOWBACK
+??? GAIN TODAY
+#votalali #happy #BELIEBER =¤z$
+@edakrivossi4322 - RT @lynndill98: ????? RETWEET 
+????? FOLLOW ALL WHO RT
+????? FOLLOWBACK
+????? GAIN WITH ME
+RT NOW?????
+#sexy #happy #goodlucklouis #ff 8ö-1
+@pippoetoh8458_l - ????? RETWEET 
+????? FOLLOW ALL WHO RT
+????? FOLLOWBACK
+????? GAIN WITH ME
+RT NOW?????
+#emabiggestfans1d #kca #happy 8aså
+@hhinkleiosepp_t - RT @1730_sl__oanha_: ?Gain Followers
+?RT This
+?MUST FOLLOW ME I FOLLOW BACK
+?Follow everyone who rts
+?Gain
+  #happy #staystrongexo#follow 9…
+@BunnJanine - RT @jjonellbushnell: ?Gain Followers
+?RT This
+?MUST FOLLOW ME I FOLLOW BACK
+?Follow everyone who rts
+?Gain
+  #wildlifemusicvideo #ff #happy…
+@MeyersDarrin - RT @gaylankford35: ?Gain Followers
+?RT This
+?MUST FOLLOW ME I FOLLOW BACK
+?Follow everyone who rts
+?Gain
+  #happy #ff #news #job #follow sf…
+@IlonaMatteson - RT @ttimlerlibraria: ?? #FOLLOWTRICK
+? RETWEET
+?? FOLLOW ALL WHO RT
+? FOLLOWBACK
+?? GAIN WITH ME
+? #FOLLOW
+#ONEDIRECTION #ff #happy #follow…
+@hhinkleiosepp_t - ????? RETWEET 
+????? FOLLOW ALL WHO RT
+????? FOLLOWBACK
+????? GAIN WITH ME
+RT NOW?????
+#happy #gameinsight #Love #Love 4xhd
+@3940_sumegar_c_ - RT @GrissomJoline: ??? #FOLLOWTRICK
+??? RETWEET
+??? FOLLOW ALL WHO RT
+??? #FOLLOWBACK
+??? GAIN TODAY
+#happy #porn #FOLLOWBACK rö8£
+@IlonaMatteson - RT @BeckhamMose: ?? #FOLLOWTRICK
+? RETWEET
+?? FOLLOW ALL WHO RT
+? FOLLOWBACK
+?? GAIN WITH ME
+? #FOLLOW
+#music #exo #happy #ff #follow ö-h€
+@tehollenbecthri - RT @GaySuzi: ??? #FOLLOWTRICK
+??? RETWEET
+??? FOLLOW ALL WHO RT
+??? #FOLLOWBACK
+??? GAIN TODAY
+#porn #happy #ANDROID #ff /+#-
+@StoweDevin - RT @tecdru__c_ill__: ?Gain Followers
+?RT This
+?MUST FOLLOW ME I FOLLOW BACK
+?Follow everyone who rts
+?Gain
+  #FOLLOWBACK #happy #sexy #musi…
+@vvenusdevicess_ - ????? RETWEET 
+????? FOLLOW ALL WHO RT
+????? FOLLOWBACK
+????? GAIN WITH ME
+RT NOW?????
+#happy #BELIEBER #kca #vote1duk p5gf
+@4890_svalesenna - RT @9624_bayard_c_h: ????? RETWEET 
+????? FOLLOW ALL WHO RT
+????? FOLLOWBACK
+????? GAIN WITH ME
+RT NOW?????
+#music #exo #happy #gameinsight…
+@margottomb__ul_ - RT @llavinieleenher: ?? #FOLLOWTRICK
+? RETWEET
+?? FOLLOW ALL WHO RT
+? FOLLOWBACK
+?? GAIN WITH ME
+? #FOLLOW
+#FOLLOWBACK #happy #gameinsight …
+@ciaraarroyo39 - RT @aanadesjardii_j: ??? #FOLLOWTRICK
+??? RETWEET
+??? FOLLOW ALL WHO RT
+??? #FOLLOWBACK
+??? GAIN TODAY
+#ff #RETWEET #ipad #happy 47ls
+@mathis_ralph - RT @filbertoclement: ?Gain Followers
+?RT This
+?MUST FOLLOW ME I FOLLOW BACK
+?Follow everyone who rts
+?Gain
+  #ipadgames #happy #sexy #Love …
+@hhomonickidalia - RT @GregoryWyrick: ????? RETWEET 
+????? FOLLOW ALL WHO RT
+????? FOLLOWBACK
+????? GAIN WITH ME
+RT NOW?????
+#happy #superjunior #ff #follow 1…

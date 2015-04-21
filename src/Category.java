@@ -1,4 +1,5 @@
 import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
@@ -8,15 +9,15 @@ import java.util.Set;
  */
 public class Category {
     private String name; //Contoh : Sepakbola
-    private Set<String> keyWord; //Contoh : persib, gol
+    private ArrayList<String> keyWord; //Contoh : persib, gol
     public Category(String n){
         name=n;
     }
     public void setKeyWord(String keyWordInput){
         String [] catKeyTemp = keyWordInput.split("\\s*,\\s*");
-        keyWord = new HashSet<>(Arrays.asList(catKeyTemp));
+        keyWord = new ArrayList<>(Arrays.asList(catKeyTemp));
     }
-    public Set<String> getKeyWord(){
+    public ArrayList<String> getKeyWord(){
         return keyWord;
     }
     public String getName(){

@@ -1,58 +1,59 @@
-/**
- * Created by Julio on 4/16/2015.
- */
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Vector;
+public class BoyerMoore{
+	public static int bmMatch(String texti, String patterni){
+		String text = texti.toLowerCase();
+		String pattern = patterni.toLowerCase();
+		int last[] = buildLast(pattern);
+		int n = text.length();
+		int m = pattern.length();
+		int i = m - 1;
 
-public class BoyerMoore {
-	public List<Integer> match(String pattern, String text){
-		List<Integer> matches = new Vector<>();
-			// DEKLARASI LENGTH
-			int m = text.length();
-			int n = pattern.length();
-			// PREPROSES
-			Map<Character, Integer> rightMostIndex = preprocessForBadCharacterShift(pattern);
-			// ALIGN START
-			int alignedAt = 0;
-			while (alignedAt + (n - 1) < m) {
-				for (int iPattern = n - 1; iPattern >= 0; iPattern--){
-					int iText = alignedAt + iPattern;
-					char x = text.charAt(iText);
-					char y = pattern.charAt(iPattern);
-					if (iText >= m) //Break
-						break;
-					if (x != y){ //Mismatch
-						Integer r = rightMostIndex.get(x); //Get Index
-						if (r == null){
-							alignedAt = iText + 1;
-						}
-						else{
-							int shift = iText - (alignedAt + r);
-							alignedAt += shift > 0 ? shift : alignedAt + 1;
-						}
-					}
-					else if (iPattern == 0){ //Match
-						matches.add(alignedAt);
-						alignedAt++;
-					}
-				}	
-			}	
-			return matches;
-	}	
-			
-	private Map<Character, Integer> preprocessForBadCharacterShift(String pattern){
-		Map <Character, Integer> map = new HashMap<>();
-		for (int i = pattern.length() - 1; i >= 0; i--){
-			char c = pattern.charAt(i);
-			if (!map.containsKey(c))
-				map.put(c, i);
-		}
-		return map;
+		if (i > n - 1)
+			return -1;
+
+		int j = m - 1;
+		do {
+			if (pattern.charAt(j) == text.charAt(i)) {
+				if (j == 0)
+					return i;
+				else {
+					i--;
+					j--;
+				}
+			}
+			else{
+				int lo = last[text.charAt(i)];
+				i = i + m - Math.min(j, 1 + lo);
+				j = m - 1;
+			}
+		} while (i <= n - 1);
+
+		return -1;
 	}
-	
 
+	public static int[] buildLast(String pattern){
+		int last[] = new int[128];
+		for (int i = 0; i < 128; i++)
+			last[i] = -1;
+
+		for (int i = 0; i < pattern.length(); i++)
+			last[pattern.charAt(i)] = i;
+
+		return last;
+	}
+
+	public static void main(String args[]){
+		if (args.length != 2){
+			System.out.println("Usage : java BmSearch <text><pattern>");
+			System.exit(0);
+		}
+		System.out.println("Text : " + args[0]);
+		System.out.println("Pattern : " + args[1]);
+
+		int posn = bmMatch(args[0], args[1]);
+		if (posn == -1)
+			System.out.println("Pattern not found");
+		else
+			System.out.println("Pattern starts at posn " + posn);
+	}
 }
-						

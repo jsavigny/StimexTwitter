@@ -1,43 +1,49 @@
 /**
- * Created by Julio on 4/20/2015.
+ * Created by user on 21/04/2015.
  */
 public class KMP {
-    private String pattern;
-    private int[] next;
-
-    // create Knuth-Morris-Pratt NFA from pattern
-    public KMP(String pattern) {
-        this.pattern = pattern;
-        int M = pattern.length();
-        next = new int[M];
-        int j = -1;
-        for (int i = 0; i < M; i++) {
-            if (i == 0)                                      next[i] = -1;
-            else if (pattern.charAt(i) != pattern.charAt(j)) next[i] = j;
-            else                                             next[i] = next[j];
-            while (j >= 0 && pattern.charAt(i) != pattern.charAt(j)) {
-                j = next[j];
+    public static int kmpMatch(String texti, String patterni){
+        String text = texti.toLowerCase();
+        String pattern = patterni.toLowerCase();
+        int n = text.length();
+        int m = pattern.length();
+        int fail[] = computeFail(pattern);
+        int i = 0;
+        int j = 0;
+        while (i < n) {
+            if (pattern.charAt(j) == text.charAt(i)) {
+                if (j == m - 1)
+                    return i - m + 1; // match
+                i++;
+                j++;
             }
-            j++;
+            else if (j > 0)
+                j = fail[j-1];
+            else
+                i++;
         }
-
-        /*for (int i = 0; i < M; i++)
-            System.out.println("next[" + i + "] = " + next[i]);*/
+        return -1; // no match  } // end of kmpMatch()
     }
+    public static int[] computeFail(String pattern){
+        int fail[] = new int[pattern.length()];
+        fail[0] = 0;
 
-    // return offset of first occurrence of text in pattern (or N if no match)
-    // simulate the NFA to find match
-    public int search(String text) {
-        int M = pattern.length();
-        int N = text.length();
-        int i, j;
-        for (i = 0, j = 0; i < N && j < M; i++) {
-            while (j >= 0 && text.charAt(i) != pattern.charAt(j))
-                j = next[j];
-            j++;
+        int m = pattern.length();
+        int j = 0;
+        int i = 1;
+        while (i<m){
+            if (pattern.charAt(j) == pattern.charAt(i)){ //j+1 chars match
+                fail[i] = j+1;
+                i++;
+                j++;
+            }
+            else if (j > 0) //j follows matching prefix
+                j = fail[j-1];
+            else{
+                fail[i] = 0;
+                i++;
+            }
         }
-        if (j == M) return i - M;
-        return N;
-    }
-
+        return fail;
+    }// end of computeFail()
 }

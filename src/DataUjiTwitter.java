@@ -40,14 +40,15 @@ public class DataUjiTwitter {
 
             tweetWriter = new PrintWriter(new File(fileName));
 
-            List<Status> dataUjiStatuses = result.getTweets();
+            List<Status> tempList = result.getTweets();
+            dataUjiStatuses = (ArrayList<Status>) tempList;
             System.out.println("Number of tweets:"+ dataUjiStatuses.size());
-            for (int tweet=0;tweet<dataUjiStatuses.size();tweet++ )
+            /*for (int tweet=0;tweet<dataUjiStatuses.size();tweet++ )
             {
                 String tempTweet = "@"+dataUjiStatuses.get(tweet).getUser().getScreenName()+" : "+dataUjiStatuses.get(tweet).getText();
                 dataUjiString.add(tempTweet);
                 System.out.println(tempTweet);
-            }
+            }*/
             if(query != null)
             {
                 result = twitter.search(query);

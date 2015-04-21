@@ -13,9 +13,6 @@ public class Main {
 
     public static void main(String[] args) throws TwitterException {
         Scanner in = new Scanner(System.in);
-        for (String s: args) {
-            System.out.println(s);
-        }
 
         String pilihan = args[0];
         String twitKeyWord = args[1];
@@ -54,7 +51,6 @@ public class Main {
         for (int i=0; i<Streamer.dataUjiStatuses.size(); i++){
             String status = Streamer.dataUjiStatuses.get(i).getText();
             String tweetString = "@"+Streamer.dataUjiStatuses.get(i).getUser().getScreenName()+" : "+Streamer.dataUjiStatuses.get(i).getText();
-            System.out.println(tweetString);
             int pos1=-1,pos2=-1,pos3=-1;
             for (int j=0; j < cat1.getKeyWord().size(); j++){
                 //Lakukan pencarian KMP/Boyer untuk category 1
@@ -64,10 +60,11 @@ public class Main {
                     if (pos1==-1) {
                         pos1 = searcher1.kmpMatch(status, keyWordCat1);
                     }
-                    System.out.println("pos1 keyword ke: "+j+" - "+pos1);
                 } else {//Boyer-Moore
                     BoyerMoore searcher1 = new BoyerMoore();
-                    pos1 = searcher1.bmMatch(status,keyWordCat1);
+                    if (pos1==-1) {
+                        pos1 = searcher1.bmMatch(status, keyWordCat1);
+                    }
                 }
             }
             for (int j=0; j < cat2.getKeyWord().size(); j++){
@@ -78,10 +75,11 @@ public class Main {
                     if (pos2==-1) {
                         pos2 = searcher2.kmpMatch(status, keyWordCat2);
                     }
-                    System.out.println("pos2 keyword ke: "+j+" - "+pos2);
                 } else {//Boyer-Moore
                     BoyerMoore searcher2 = new BoyerMoore();
-                    pos2 = searcher2.bmMatch(status,keyWordCat2);
+                    if (pos2==-1) {
+                        pos2 = searcher2.bmMatch(status, keyWordCat2);
+                    }
                 }
             }
             for (int j=0; j < cat3.getKeyWord().size(); j++){
@@ -92,61 +90,45 @@ public class Main {
                     if (pos3==-1) {
                         pos3 = searcher3.kmpMatch(status, keyWordCat3);
                     }
-                    System.out.println("pos3 keyword ke: "+j+" - "+pos3);
                 } else {//Boyer-Moore
                     BoyerMoore searcher3 = new BoyerMoore();
-                    pos1 = searcher3.bmMatch(status,keyWordCat3);
+                    if (pos3==-1) {
+                        pos3 = searcher3.bmMatch(status, keyWordCat3);
+                    }
                 }
             }
             if ((pos1 == -1)&&(pos2 == -1)&&(pos3 == -1)){ //unknown
-                System.out.println("UNKNOWN");
                 resultUnknown.add(tweetString);
             } else if ((pos1 != -1)&&(pos2 == -1 )&&(pos3 == -1)){
-                System.out.println("Satu");
                 resultOne.add(tweetString);
             } else if ((pos1 == -1)&&(pos2 != -1 )&&(pos3 == -1)){
-                System.out.println("Dua");
                 resultTwo.add(tweetString);
             } else if ((pos1 == -1)&&(pos2 == -1 )&&(pos3 != -1)){
-                System.out.println("Tiga");
                 resultThree.add(tweetString);
             } else if ((pos1 != -1)&&(pos2 != -1 )&&(pos3 == -1)){
-                System.out.println("Satu Dua");
                 if ((pos1)<(pos2)){
-                    System.out.println("Satu");
                     resultOne.add(tweetString);
                 } else {
-                    System.out.println("Dua");
                     resultTwo.add(tweetString);
                 }
             } else if ((pos1 != -1)&&(pos2 == -1 )&&(pos3 != -1)){
-                System.out.println("Satu Tiga");
                 if ((pos1)<(pos3)){
-                    System.out.println("Satu");
                     resultOne.add(tweetString);
                 } else {
-                    System.out.println("Tiga");
                     resultThree.add(tweetString);
                 }
             } else if ((pos1 == -1)&&(pos2 != -1 )&&(pos3 != -1)){
-                System.out.println("Dua Tiga");
                 if ((pos2)<(pos3)){
-                    System.out.println("Dua");
                     resultTwo.add(tweetString);
                 } else {
-                    System.out.println("Tiga");
                     resultThree.add(tweetString);
                 }
             } else if ((pos1 != -1)&&(pos2 != -1 )&&(pos3 != -1)) {
-                System.out.println("Satu Dua Tiga");
                 if (((pos1) < (pos2)) && ((pos1) < (pos3))) {
-                    System.out.println("Satu");
                     resultOne.add(tweetString);
                 } else if (((pos2) < (pos1)) && ((pos2) < (pos3))) {
-                    System.out.println("Dua");
                     resultTwo.add(tweetString);
                 } else {
-                    System.out.println("Tiga");
                     resultThree.add(tweetString);
                 }
             }
@@ -157,16 +139,19 @@ public class Main {
             String tweets = resultOne.getResult().get(i);
             System.out.println(tweets);
         }
+        System.out.println();
         System.out.println("Kategori "+resultTwo.getTopic()+" - "+resultTwo.getCategory());
         for (int i=0;i<resultTwo.getResult().size();i++){
             String tweets = resultTwo.getResult().get(i);
             System.out.println(tweets);
         }
+        System.out.println();
         System.out.println("Kategori "+resultThree.getTopic()+" - "+resultThree.getCategory());
         for (int i=0;i<resultThree.getResult().size();i++){
             String tweets = resultThree.getResult().get(i);
             System.out.println(tweets);
         }
+        System.out.println();
         System.out.println("Kategori Unknown");
         for (int i=0;i<resultUnknown.getResult().size();i++){
             String tweets = resultUnknown.getResult().get(i);

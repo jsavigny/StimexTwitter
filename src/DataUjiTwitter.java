@@ -6,22 +6,30 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
  * Created by Julio on 4/16/2015.
  */
 public class DataUjiTwitter {
-    public ArrayList<String> dataUjiString;
     public ArrayList<Status> dataUjiStatuses;
     DataUjiTwitter(){
         dataUjiStatuses= new ArrayList<>(100);
-        dataUjiString= new ArrayList<>(100);
     }
     public void Stream(String fileName,String keyWord){
         Object lock = new Object();
         PrintWriter tweetWriter = null;
+        String [] keyString = keyWord.split("\\s*,\\s*");
+        ArrayList<String> keyStringList = new ArrayList<>(Arrays.asList(keyString));
+        if (keyStringList.size()>1) {
+            keyWord=keyStringList.get(0);
+            for (int i = 1; i < keyStringList.size(); i++) {
+                keyWord = keyWord + " OR " + keyStringList.get(i);
+            }
 
+        }
+        System.out.println(keyWord);
         ConfigurationBuilder cb = new ConfigurationBuilder();
         cb.setDebugEnabled(true)
                 .setOAuthConsumerKey("zWLzh04AonhHlD1KGBpMnMnOR")
@@ -35,20 +43,14 @@ public class DataUjiTwitter {
 
             Query query = new Query(keyWord);
             query.setCount(100);
-            
+            query.setLang("en");
             QueryResult result = twitter.search(query);
 
             tweetWriter = new PrintWriter(new File(fileName));
 
             List<Status> tempList = result.getTweets();
             dataUjiStatuses = (ArrayList<Status>) tempList;
-            System.out.println("Number of tweets:"+ dataUjiStatuses.size());
-            /*for (int tweet=0;tweet<dataUjiStatuses.size();tweet++ )
-            {
-                String tempTweet = "@"+dataUjiStatuses.get(tweet).getUser().getScreenName()+" : "+dataUjiStatuses.get(tweet).getText();
-                dataUjiString.add(tempTweet);
-                System.out.println(tempTweet);
-            }*/
+
             if(query != null)
             {
                 result = twitter.search(query);

@@ -42,18 +42,4 @@ public class BoyerMoore{
 		return last;
 	}
 
-	public static void main(String args[]){
-		if (args.length != 2){
-			System.out.println("Usage : java BmSearch <text><pattern>");
-			System.exit(0);
-		}
-		System.out.println("Text : " + args[0]);
-		System.out.println("Pattern : " + args[1]);
-
-		int posn = bmMatch(args[0], args[1]);
-		if (posn == -1)
-			System.out.println("Pattern not found");
-		else
-			System.out.println("Pattern starts at posn " + posn);
-	}
 }

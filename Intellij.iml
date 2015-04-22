@@ -13,5 +13,15 @@
     <orderEntry type="library" name="twitter4j-examples-4.0.3" level="project" />
     <orderEntry type="library" name="twitter4j-media-support-4.0.3" level="project" />
     <orderEntry type="library" name="twitter4j-stream-4.0.3" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/.idea/libraries/google-api-services-mapsengine-v1-rev60-java-1.20.0" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/.idea/libraries/google-api-services-mapsengine-v1-rev60-java-1.20.0" recursive="false" />
+      </library>
+    </orderEntry>
   </component>
 </module>

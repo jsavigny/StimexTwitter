@@ -36,12 +36,11 @@ public class Main {
         } else {
             topic = new Topic("DUMMY","1,2,3");
         }
-        ResultArray resultOne= new ResultArray(topic.getTopic(),topic.getCategory().get(0).getName());
+        ResultArray resultOne= new ResultArray(topic.getTopic(),topic.getCategory().get(0).getName()); //Result Array, hasil pencarian tweet masuk kategori mana
         ResultArray resultTwo= new ResultArray(topic.getTopic(),topic.getCategory().get(1).getName());
         ResultArray resultThree= new ResultArray(topic.getTopic(),topic.getCategory().get(2).getName());
         ResultArray resultUnknown= new ResultArray("Unknown");
         topic.getCategory().get(0).setKeyWord(keyWords.get(0));
-        //System.out.println("TOPIK : "+topic.getCategory().get(0).getKeyWord().get(0));
         topic.getCategory().get(1).setKeyWord(keyWords.get(1));
         topic.getCategory().get(2).setKeyWord(keyWords.get(2));
 
@@ -53,21 +52,29 @@ public class Main {
         Category cat3 = topic.getCategory().get(2);
 
         for (int i=0; i<Streamer.dataUjiStatuses.size(); i++){
-            String status = Streamer.dataUjiStatuses.get(i).getText();
-            String tweetString = "@"+Streamer.dataUjiStatuses.get(i).getUser().getScreenName()+" : "+Streamer.dataUjiStatuses.get(i).getText();
+            Status status = Streamer.dataUjiStatuses.get(i);
+            String statusString = status.getText();
+            String url= "https://twitter.com/" + status.getUser().getScreenName()
+                    + "/status/" + status.getId();
+            String tweetString = "@"+status.getUser().getScreenName()+" : "+status.getText()+" "+url;
             int pos1=-1,pos2=-1,pos3=-1;
+            int keyWord1Ke=0;
+            int keyWord2Ke=0;
+            int keyWord3Ke=0;
             for (int j=0; j < cat1.getKeyWord().size(); j++){
                 //Lakukan pencarian KMP/Boyer untuk category 1
                 String keyWordCat1=cat1.getKeyWord().get(j);
                 if (whatAlgorithm.equals("KMP")){
                     KMP searcher1 = new KMP();
                     if (pos1==-1) {
-                        pos1 = searcher1.kmpMatch(status, keyWordCat1);
+                        pos1 = searcher1.kmpMatch(statusString, keyWordCat1);
+                        keyWord1Ke=j;
                     }
                 } else {//Boyer-Moore
                     BoyerMoore searcher1 = new BoyerMoore();
                     if (pos1==-1) {
-                        pos1 = searcher1.bmMatch(status, keyWordCat1);
+                        pos1 = searcher1.bmMatch(statusString, keyWordCat1);
+                        keyWord1Ke=j;
                     }
                 }
             }
@@ -77,12 +84,14 @@ public class Main {
                 if (whatAlgorithm.equals("KMP")){
                     KMP searcher2 = new KMP();
                     if (pos2==-1) {
-                        pos2 = searcher2.kmpMatch(status, keyWordCat2);
+                        pos2 = searcher2.kmpMatch(statusString, keyWordCat2);
+                        keyWord2Ke=j;
                     }
                 } else {//Boyer-Moore
                     BoyerMoore searcher2 = new BoyerMoore();
                     if (pos2==-1) {
-                        pos2 = searcher2.bmMatch(status, keyWordCat2);
+                        pos2 = searcher2.bmMatch(statusString, keyWordCat2);
+                        keyWord2Ke=j;
                     }
                 }
             }
@@ -92,47 +101,109 @@ public class Main {
                 if (whatAlgorithm.equals("KMP")){
                     KMP searcher3 = new KMP();
                     if (pos3==-1) {
-                        pos3 = searcher3.kmpMatch(status, keyWordCat3);
+                        pos3 = searcher3.kmpMatch(statusString, keyWordCat3);
+                        keyWord3Ke=j;
                     }
                 } else {//Boyer-Moore
                     BoyerMoore searcher3 = new BoyerMoore();
                     if (pos3==-1) {
-                        pos3 = searcher3.bmMatch(status, keyWordCat3);
+                        pos3 = searcher3.bmMatch(statusString, keyWordCat3);
+                        keyWord3Ke=j;
                     }
                 }
             }
             if ((pos1 == -1)&&(pos2 == -1)&&(pos3 == -1)){ //unknown
                 resultUnknown.add(tweetString);
             } else if ((pos1 != -1)&&(pos2 == -1 )&&(pos3 == -1)){
+                String preStatus = statusString.substring(0,pos1);
+                String theKey = statusString.substring(pos1,pos1+cat1.getKeyWord().get(keyWord1Ke).length());
+                String postStatus = statusString.substring(pos1+cat1.getKeyWord().get(keyWord1Ke).length());
+                String tweet=preStatus+"<b>"+theKey+"</b>"+postStatus;
+                tweetString = "@"+status.getUser().getScreenName()+" : "+tweet+" "+url;
                 resultOne.add(tweetString);
             } else if ((pos1 == -1)&&(pos2 != -1 )&&(pos3 == -1)){
+                String preStatus = statusString.substring(0,pos2);
+                String theKey = statusString.substring(pos2,pos2+cat2.getKeyWord().get(keyWord2Ke).length());
+                String postStatus = statusString.substring(pos2+cat2.getKeyWord().get(keyWord2Ke).length());
+                String tweet=preStatus+"<b>"+theKey+"</b>"+postStatus;
+                tweetString = "@"+status.getUser().getScreenName()+" : "+tweet+" "+url;
                 resultTwo.add(tweetString);
             } else if ((pos1 == -1)&&(pos2 == -1 )&&(pos3 != -1)){
+                String preStatus = statusString.substring(0,pos3);
+                String theKey = statusString.substring(pos3,pos3+cat2.getKeyWord().get(keyWord3Ke).length());
+                String postStatus = statusString.substring(pos3+cat2.getKeyWord().get(keyWord3Ke).length());
+                String tweet=preStatus+"<b>"+theKey+"</b>"+postStatus;
+                tweetString = "@"+status.getUser().getScreenName()+" : "+tweet+" "+url;
                 resultThree.add(tweetString);
             } else if ((pos1 != -1)&&(pos2 != -1 )&&(pos3 == -1)){
                 if ((pos1)<(pos2)){
+                    String preStatus = statusString.substring(0,pos1);
+                    String theKey = statusString.substring(pos1,pos1+cat1.getKeyWord().get(keyWord1Ke).length());
+                    String postStatus = statusString.substring(pos1+cat1.getKeyWord().get(keyWord1Ke).length());
+                    String tweet=preStatus+"<b>"+theKey+"</b>"+postStatus;
+                    tweetString = "@"+status.getUser().getScreenName()+" : "+tweet+" "+url;
                     resultOne.add(tweetString);
                 } else {
+                    String preStatus = statusString.substring(0,pos2);
+                    String theKey = statusString.substring(pos2,pos2+cat2.getKeyWord().get(keyWord2Ke).length());
+                    String postStatus = statusString.substring(pos2+cat2.getKeyWord().get(keyWord2Ke).length());
+                    String tweet=preStatus+"<b>"+theKey+"</b>"+postStatus;
+                    tweetString = "@"+status.getUser().getScreenName()+" : "+tweet+" "+url;
                     resultTwo.add(tweetString);
                 }
             } else if ((pos1 != -1)&&(pos2 == -1 )&&(pos3 != -1)){
                 if ((pos1)<(pos3)){
+                    String preStatus = statusString.substring(0,pos1);
+                    String theKey = statusString.substring(pos1,pos1+cat1.getKeyWord().get(keyWord1Ke).length());
+                    String postStatus = statusString.substring(pos1+cat1.getKeyWord().get(keyWord1Ke).length());
+                    String tweet=preStatus+"<b>"+theKey+"</b>"+postStatus;
+                    tweetString = "@"+status.getUser().getScreenName()+" : "+tweet+" "+url;
                     resultOne.add(tweetString);
                 } else {
+                    String preStatus = statusString.substring(0,pos3);
+                    String theKey = statusString.substring(pos3,pos3+cat2.getKeyWord().get(keyWord3Ke).length());
+                    String postStatus = statusString.substring(pos3+cat2.getKeyWord().get(keyWord3Ke).length());
+                    String tweet=preStatus+"<b>"+theKey+"</b>"+postStatus;
+                    tweetString = "@"+status.getUser().getScreenName()+" : "+tweet+" "+url;
                     resultThree.add(tweetString);
                 }
             } else if ((pos1 == -1)&&(pos2 != -1 )&&(pos3 != -1)){
                 if ((pos2)<(pos3)){
+                    String preStatus = statusString.substring(0,pos2);
+                    String theKey = statusString.substring(pos2,pos2+cat2.getKeyWord().get(keyWord2Ke).length());
+                    String postStatus = statusString.substring(pos2+cat2.getKeyWord().get(keyWord2Ke).length());
+                    String tweet=preStatus+"<b>"+theKey+"</b>"+postStatus;
+                    tweetString = "@"+status.getUser().getScreenName()+" : "+tweet+" "+url;
                     resultTwo.add(tweetString);
                 } else {
+                    String preStatus = statusString.substring(0,pos3);
+                    String theKey = statusString.substring(pos3,pos3+cat2.getKeyWord().get(keyWord3Ke).length());
+                    String postStatus = statusString.substring(pos3+cat2.getKeyWord().get(keyWord3Ke).length());
+                    String tweet=preStatus+"<b>"+theKey+"</b>"+postStatus;
+                    tweetString = "@"+status.getUser().getScreenName()+" : "+tweet+" "+url;
                     resultThree.add(tweetString);
                 }
             } else if ((pos1 != -1)&&(pos2 != -1 )&&(pos3 != -1)) {
                 if (((pos1) < (pos2)) && ((pos1) < (pos3))) {
+                    String preStatus = statusString.substring(0,pos1);
+                    String theKey = statusString.substring(pos1,pos1+cat1.getKeyWord().get(keyWord1Ke).length());
+                    String postStatus = statusString.substring(pos1+cat1.getKeyWord().get(keyWord1Ke).length());
+                    String tweet=preStatus+"<b>"+theKey+"</b>"+postStatus;
+                    tweetString = "@"+status.getUser().getScreenName()+" : "+tweet+" "+url;
                     resultOne.add(tweetString);
                 } else if (((pos2) < (pos1)) && ((pos2) < (pos3))) {
+                    String preStatus = statusString.substring(0,pos2);
+                    String theKey = statusString.substring(pos2,pos2+cat2.getKeyWord().get(keyWord2Ke).length());
+                    String postStatus = statusString.substring(pos2+cat2.getKeyWord().get(keyWord2Ke).length());
+                    String tweet=preStatus+"<b>"+theKey+"</b>"+postStatus;
+                    tweetString = "@"+status.getUser().getScreenName()+" : "+tweet+" "+url;
                     resultTwo.add(tweetString);
                 } else {
+                    String preStatus = statusString.substring(0,pos3);
+                    String theKey = statusString.substring(pos3,pos3+cat2.getKeyWord().get(keyWord3Ke).length());
+                    String postStatus = statusString.substring(pos3+cat2.getKeyWord().get(keyWord3Ke).length());
+                    String tweet=preStatus+"<b>"+theKey+"</b>"+postStatus;
+                    tweetString = "@"+status.getUser().getScreenName()+" : "+tweet+" "+url;
                     resultThree.add(tweetString);
                 }
             }

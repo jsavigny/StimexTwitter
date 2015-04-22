@@ -21,7 +21,9 @@ public class Main {
         keyWords.add(args[3]);
         keyWords.add(args[4]);
         String whatAlgorithm = args[5];
+        String proxArg = args[6];
         int whatTopic = Integer.parseInt(pilihan);
+        int proxy = Integer.parseInt(proxArg);
         Topic topic;
         if (whatTopic==1) { //Olahraga
             topic = new Topic("Olahraga", "Sepakbola,Basket,Renang");
@@ -29,7 +31,7 @@ public class Main {
             topic = new Topic("Entertainment", "Film,Game,Musik");
         } else if (whatTopic==3) { //Otomotif
             topic = new Topic("Otomotif", "Mobil,Motor,Balapan");
-        } else if (whatTopic==4) { //Topik lainnya (Mau Travelling/Technology nih?)
+        } else if (whatTopic==4) { //Travelling
             topic = new Topic("Travelling","Gunung,Pantai,Kota");
         } else {
             topic = new Topic("DUMMY","1,2,3");
@@ -42,8 +44,10 @@ public class Main {
         //System.out.println("TOPIK : "+topic.getCategory().get(0).getKeyWord().get(0));
         topic.getCategory().get(1).setKeyWord(keyWords.get(1));
         topic.getCategory().get(2).setKeyWord(keyWords.get(2));
+
         DataUjiTwitter Streamer = new DataUjiTwitter();
-        Streamer.Stream("Twitters.txt", twitKeyWord);
+        Streamer.Stream("Twitters.txt", twitKeyWord, proxy);
+
         Category cat1 = topic.getCategory().get(0);
         Category cat2 = topic.getCategory().get(1);
         Category cat3 = topic.getCategory().get(2);

@@ -17,7 +17,7 @@ public class DataUjiTwitter {
     DataUjiTwitter(){
         dataUjiStatuses= new ArrayList<>(100);
     }
-    public void Stream(String fileName,String keyWord){
+    public void Stream(String fileName,String keyWord, int proxy){
         Object lock = new Object();
         PrintWriter tweetWriter = null;
         String [] keyString = keyWord.split("\\s*,\\s*");
@@ -36,6 +36,12 @@ public class DataUjiTwitter {
                 .setOAuthConsumerSecret("7BgtsE1IT6LBnwf7vXvfr7rQYRBqoN37F4DYiDdOdWfDnfU4fF")
                 .setOAuthAccessToken("57534993-NC8ZX32cDbcjAMPkbbEEw3ho803xUVlijd2YKp2Gn")
                 .setOAuthAccessTokenSecret("ZTrxBLIrK5lmDFTyVltQk9bUYorGBcjiF2NROaEbn7E25");
+        if (proxy==1){
+            cb.setHttpProxyHost("cache.itb.ac.id")
+                    .setHttpProxyPort(8080)
+                    .setHttpProxyUser("AI3_USERNAME")
+                    .setHttpProxyPassword("AI3_PASSWORD");
+        }
         try
         {
             TwitterFactory tf = new TwitterFactory(cb.build());

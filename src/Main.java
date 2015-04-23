@@ -56,7 +56,7 @@ public class Main {
             String statusString = status.getText();
             String url= "https://twitter.com/" + status.getUser().getScreenName()
                     + "/status/" + status.getId();
-            String tweetString = "@"+status.getUser().getScreenName()+" : "+status.getText()+" "+url;
+            String tweetString;
             int pos1=-1,pos2=-1,pos3=-1;
             int keyWord1Ke=0;
             int keyWord2Ke=0;
@@ -113,27 +113,28 @@ public class Main {
                 }
             }
             if ((pos1 == -1)&&(pos2 == -1)&&(pos3 == -1)){ //unknown
+                tweetString = "<a href=\""+url+"\">@"+status.getUser().getScreenName()+" : "+"@"+status.getUser().getScreenName()+" : "+status.getText()+"</a>";
                 resultUnknown.add(tweetString);
             } else if ((pos1 != -1)&&(pos2 == -1 )&&(pos3 == -1)){
                 String preStatus = statusString.substring(0,pos1);
                 String theKey = statusString.substring(pos1,pos1+cat1.getKeyWord().get(keyWord1Ke).length());
                 String postStatus = statusString.substring(pos1+cat1.getKeyWord().get(keyWord1Ke).length());
                 String tweet=preStatus+"<b>"+theKey+"</b>"+postStatus;
-                tweetString = "@"+status.getUser().getScreenName()+" : "+tweet+" "+url;
+                tweetString = "<a href=\""+url+"\">@"+status.getUser().getScreenName()+" : "+tweet+"</a>";
                 resultOne.add(tweetString);
             } else if ((pos1 == -1)&&(pos2 != -1 )&&(pos3 == -1)){
                 String preStatus = statusString.substring(0,pos2);
                 String theKey = statusString.substring(pos2,pos2+cat2.getKeyWord().get(keyWord2Ke).length());
                 String postStatus = statusString.substring(pos2+cat2.getKeyWord().get(keyWord2Ke).length());
                 String tweet=preStatus+"<b>"+theKey+"</b>"+postStatus;
-                tweetString = "@"+status.getUser().getScreenName()+" : "+tweet+" "+url;
+                tweetString = "<a href=\""+url+"\">@"+status.getUser().getScreenName()+" : "+tweet+"</a>";
                 resultTwo.add(tweetString);
             } else if ((pos1 == -1)&&(pos2 == -1 )&&(pos3 != -1)){
                 String preStatus = statusString.substring(0,pos3);
                 String theKey = statusString.substring(pos3,pos3+cat2.getKeyWord().get(keyWord3Ke).length());
                 String postStatus = statusString.substring(pos3+cat2.getKeyWord().get(keyWord3Ke).length());
                 String tweet=preStatus+"<b>"+theKey+"</b>"+postStatus;
-                tweetString = "@"+status.getUser().getScreenName()+" : "+tweet+" "+url;
+                tweetString = "<a href=\""+url+"\">@"+status.getUser().getScreenName()+" : "+tweet+"</a>";
                 resultThree.add(tweetString);
             } else if ((pos1 != -1)&&(pos2 != -1 )&&(pos3 == -1)){
                 if ((pos1)<(pos2)){
@@ -141,14 +142,14 @@ public class Main {
                     String theKey = statusString.substring(pos1,pos1+cat1.getKeyWord().get(keyWord1Ke).length());
                     String postStatus = statusString.substring(pos1+cat1.getKeyWord().get(keyWord1Ke).length());
                     String tweet=preStatus+"<b>"+theKey+"</b>"+postStatus;
-                    tweetString = "@"+status.getUser().getScreenName()+" : "+tweet+" "+url;
+                    tweetString = "<a href=\""+url+"\">@"+status.getUser().getScreenName()+" : "+tweet+"</a>";
                     resultOne.add(tweetString);
                 } else {
                     String preStatus = statusString.substring(0,pos2);
                     String theKey = statusString.substring(pos2,pos2+cat2.getKeyWord().get(keyWord2Ke).length());
                     String postStatus = statusString.substring(pos2+cat2.getKeyWord().get(keyWord2Ke).length());
                     String tweet=preStatus+"<b>"+theKey+"</b>"+postStatus;
-                    tweetString = "@"+status.getUser().getScreenName()+" : "+tweet+" "+url;
+                    tweetString = "<a href=\""+url+"\">@"+status.getUser().getScreenName()+" : "+tweet+"</a>";
                     resultTwo.add(tweetString);
                 }
             } else if ((pos1 != -1)&&(pos2 == -1 )&&(pos3 != -1)){
@@ -157,14 +158,14 @@ public class Main {
                     String theKey = statusString.substring(pos1,pos1+cat1.getKeyWord().get(keyWord1Ke).length());
                     String postStatus = statusString.substring(pos1+cat1.getKeyWord().get(keyWord1Ke).length());
                     String tweet=preStatus+"<b>"+theKey+"</b>"+postStatus;
-                    tweetString = "@"+status.getUser().getScreenName()+" : "+tweet+" "+url;
+                    tweetString = "<a href=\""+url+"\">@"+status.getUser().getScreenName()+" : "+tweet+"</a>";
                     resultOne.add(tweetString);
                 } else {
                     String preStatus = statusString.substring(0,pos3);
                     String theKey = statusString.substring(pos3,pos3+cat2.getKeyWord().get(keyWord3Ke).length());
                     String postStatus = statusString.substring(pos3+cat2.getKeyWord().get(keyWord3Ke).length());
                     String tweet=preStatus+"<b>"+theKey+"</b>"+postStatus;
-                    tweetString = "@"+status.getUser().getScreenName()+" : "+tweet+" "+url;
+                    tweetString = "<a href=\""+url+"\">@"+status.getUser().getScreenName()+" : "+tweet+"</a>";
                     resultThree.add(tweetString);
                 }
             } else if ((pos1 == -1)&&(pos2 != -1 )&&(pos3 != -1)){
@@ -173,14 +174,14 @@ public class Main {
                     String theKey = statusString.substring(pos2,pos2+cat2.getKeyWord().get(keyWord2Ke).length());
                     String postStatus = statusString.substring(pos2+cat2.getKeyWord().get(keyWord2Ke).length());
                     String tweet=preStatus+"<b>"+theKey+"</b>"+postStatus;
-                    tweetString = "@"+status.getUser().getScreenName()+" : "+tweet+" "+url;
+                    tweetString = "<a href=\""+url+"\">@"+status.getUser().getScreenName()+" : "+tweet+"</a>";
                     resultTwo.add(tweetString);
                 } else {
                     String preStatus = statusString.substring(0,pos3);
                     String theKey = statusString.substring(pos3,pos3+cat2.getKeyWord().get(keyWord3Ke).length());
                     String postStatus = statusString.substring(pos3+cat2.getKeyWord().get(keyWord3Ke).length());
                     String tweet=preStatus+"<b>"+theKey+"</b>"+postStatus;
-                    tweetString = "@"+status.getUser().getScreenName()+" : "+tweet+" "+url;
+                    tweetString = "<a href=\""+url+"\">@"+status.getUser().getScreenName()+" : "+tweet+"</a>";
                     resultThree.add(tweetString);
                 }
             } else if ((pos1 != -1)&&(pos2 != -1 )&&(pos3 != -1)) {
@@ -189,45 +190,45 @@ public class Main {
                     String theKey = statusString.substring(pos1,pos1+cat1.getKeyWord().get(keyWord1Ke).length());
                     String postStatus = statusString.substring(pos1+cat1.getKeyWord().get(keyWord1Ke).length());
                     String tweet=preStatus+"<b>"+theKey+"</b>"+postStatus;
-                    tweetString = "@"+status.getUser().getScreenName()+" : "+tweet+" "+url;
+                    tweetString = "<a href=\""+url+"\">@"+status.getUser().getScreenName()+" : "+tweet+"</a>";
                     resultOne.add(tweetString);
                 } else if (((pos2) < (pos1)) && ((pos2) < (pos3))) {
                     String preStatus = statusString.substring(0,pos2);
                     String theKey = statusString.substring(pos2,pos2+cat2.getKeyWord().get(keyWord2Ke).length());
                     String postStatus = statusString.substring(pos2+cat2.getKeyWord().get(keyWord2Ke).length());
                     String tweet=preStatus+"<b>"+theKey+"</b>"+postStatus;
-                    tweetString = "@"+status.getUser().getScreenName()+" : "+tweet+" "+url;
+                    tweetString = "<a href=\""+url+"\">@"+status.getUser().getScreenName()+" : "+tweet+"</a>";
                     resultTwo.add(tweetString);
                 } else {
                     String preStatus = statusString.substring(0,pos3);
                     String theKey = statusString.substring(pos3,pos3+cat2.getKeyWord().get(keyWord3Ke).length());
                     String postStatus = statusString.substring(pos3+cat2.getKeyWord().get(keyWord3Ke).length());
                     String tweet=preStatus+"<b>"+theKey+"</b>"+postStatus;
-                    tweetString = "@"+status.getUser().getScreenName()+" : "+tweet+" "+url;
+                    tweetString = "<a href=\""+url+"\">@"+status.getUser().getScreenName()+" : "+tweet+"</a>";
                     resultThree.add(tweetString);
                 }
             }
 
         }
-        System.out.println("Kategori "+resultOne.getTopic()+" - "+resultOne.getCategory());
+        System.out.println("<font size='20'><b>Kategori "+resultOne.getTopic()+" - "+resultOne.getCategory()+" </b></font>");
         for (int i=0;i<resultOne.getResult().size();i++){
             String tweets = resultOne.getResult().get(i);
             System.out.println(tweets);
         }
         System.out.println();
-        System.out.println("Kategori "+resultTwo.getTopic()+" - "+resultTwo.getCategory());
+        System.out.println("<font size='20'><b>Kategori "+resultTwo.getTopic()+" - "+resultTwo.getCategory()+" </b></font>");
         for (int i=0;i<resultTwo.getResult().size();i++){
             String tweets = resultTwo.getResult().get(i);
             System.out.println(tweets);
         }
         System.out.println();
-        System.out.println("Kategori "+resultThree.getTopic()+" - "+resultThree.getCategory());
+        System.out.println("<font size='20'><b>Kategori "+resultThree.getTopic()+" - "+resultThree.getCategory()+" </b></font>");
         for (int i=0;i<resultThree.getResult().size();i++){
             String tweets = resultThree.getResult().get(i);
             System.out.println(tweets);
         }
         System.out.println();
-        System.out.println("Kategori Unknown");
+        System.out.println("<font size='20'><b>Kategori Unknown</b></font>");
         for (int i=0;i<resultUnknown.getResult().size();i++){
             String tweets = resultUnknown.getResult().get(i);
             System.out.println(tweets);
